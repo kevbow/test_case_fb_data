@@ -4,6 +4,9 @@ Don't forget to change the time period first before download and make sure to us
 
 Before running the script, here are simple step by step that needed to be done:
 - Create a virtual environment with the libary from `requirements.txt`
+  ```cmd
+  pip install -r requirements.txt
+  ```
 - Make a folder named `data`, then move all of the downloaded data here
 
 After we have all of the client's data inside `data` folder, below are step by step to run the script.
