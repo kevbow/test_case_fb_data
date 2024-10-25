@@ -25,6 +25,6 @@ print("the entire file has been read")
 
 all_data = pd.concat(all_df)
 all_data = all_data.fillna(value=0)
-all_data.to_excel("result/concat_all_data.xlsx", index = False)
+all_data.to_excel("concat_all_data.xlsx", index = False)
 
 print("data has been merged, check on folder result")
