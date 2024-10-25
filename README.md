@@ -6,4 +6,9 @@ Before running the script, here are simple step by step that needed to be done f
 - Create a virtual environment with the libary from `requirements.txt`
 - Make a folder named `data`, then move all of the downloaded data here
 
-After we have all of the client's data inside `data` folder, then run this script:
+After we have all of the client's data inside `data` folder, below are step by step to run the script. Please check your folder location first before running them.
+> conda activate your_venv_name
+
+> python concat_data.py
+
+The data will be written to file named `concat_data.xlsx`
