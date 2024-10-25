@@ -7,8 +7,8 @@ Before running the script, here are simple step by step that needed to be done:
 - Make a folder named `data`, then move all of the downloaded data here
 
 After we have all of the client's data inside `data` folder, below are step by step to run the script.
--  Please check your folder location, make sure to set them to this repo folder
--  Activate your virtual environment
+- Please check your folder location, make sure to set them to this repo folder
+- Activate your virtual environment
   ```cmd
   conda activate your_venv_name
   ```
