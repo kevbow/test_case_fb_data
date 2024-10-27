@@ -3,7 +3,11 @@ The files need to be downloaded manually using [this template](https://adsmanage
 Don't forget to change the time period first before download and make sure to use the `.xlsx` format and turn off summary.
 
 Before running the script, here are simple step by step that needed to be done:
-- Create a virtual environment with the libary from `requirements.txt`
+- Create a virtual environment 
+  ```cmd
+  conda create -n your_venv_name python=3.10
+  ```
+- Install requirements with the libary from `requirements.txt`
   ```cmd
   pip install -r requirements.txt
   ```
