@@ -27,4 +27,4 @@ all_data = pd.concat(all_df)
 all_data = all_data.fillna(value=0)
 all_data.to_excel("concat_all_data.xlsx", index = False)
 
-print("data has been merged, check on folder result")
+print("data has been merged, check on concat_all_data.xlsx")
