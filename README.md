@@ -3,7 +3,7 @@ The files need to be downloaded manually using [this template](https://adsmanage
 Don't forget to change the time period first before download and make sure to use the `.xlsx` format and turn off summary.
 
 Before running the script, here are simple step by step that needed to be done:
-- Create a virtual environment 
+- Create a virtual environment (you can use your other env if compatible since we only need pandas and openpyxl)
   ```cmd
   conda create -n your_venv_name python=3.10
   ```
@@ -24,4 +24,4 @@ After we have all of the client's data inside `data` folder, below are step by s
   python concat_data.py
   ```
 
-The merged data then will be written to file named `concat_data.xlsx`
+The merged data then will be written to file named `concat_all_data.xlsx`
